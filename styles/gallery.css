@@ -1,0 +1,67 @@
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #33302E;
+    width: 161vh;
+    padding: 20px;
+    margin-left: 16vh;
+    margin-bottom: 60px;
+}
+
+.photo-container img{
+    margin: 5px;
+}
+
+.photo-container h2 {
+    padding-left: 115px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.photo-container a {
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+}
+
+.photo-container a {
+    transition: all 0.35s ease 0s;
+}
+
+.photo-container a:hover {
+    color: #2AAF20;
+}
+
+.main-head {
+    padding: 0px 100px 0px 100px;
+    margin-left: 26vh;
+}
+
+.main-head h2 {
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 60px;
+}
+
+.main-head a {
+    text-decoration: none;
+    color: #2AAF20;
+    font-weight: 600;
+}
+
+.line {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 5px;
+    width: 50px;
+    background-color: #4B4643;
+}
+
+.return {
+    padding-top: 30px;
+
+}
+.return a {
+    font-weight: 100;
+}
+
+
