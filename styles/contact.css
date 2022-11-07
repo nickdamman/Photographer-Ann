@@ -1,0 +1,41 @@
+
+
+.main-head {
+    padding: 100px 200px 200px 100px;
+    margin-left: 40vh;
+    width: 90vh;
+}
+
+.main-head li {
+    margin: 30px;
+}
+
+.main-head h2 {
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.main-head a {
+    text-decoration: none;
+    color: #2AAF20;
+    font-weight: 600;
+}
+
+.line {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 5px;
+    width: 50px;
+    background-color: #4B4643;
+}
+
+.return {
+    padding-top: 30px;
+
+}
+.return a {
+    font-weight: 100;
+}
+
+

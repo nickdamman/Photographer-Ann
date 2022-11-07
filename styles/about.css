@@ -1,0 +1,53 @@
+.main-head {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0px 100px 0px 100px;
+    margin-left: 26vh;
+}
+
+/*.zelf-portret {*/
+/*    align-self: flex-end;*/
+/*}*/
+
+.bio {
+    display: flex;
+    width: 120vh;
+}
+.bio-text {
+    padding-right: 50px;
+}
+
+.bio img {
+    box-shadow: 10px 10px 5px rgba(42,175,32,0.75);
+}
+
+
+.main-head h2 {
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.main-head a {
+    text-decoration: none;
+    color: #2AAF20;
+    font-weight: 600;
+}
+
+.line {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 5px;
+    width: 50px;
+    background-color: #4B4643;
+}
+
+.text {
+    width: 83vh;
+    background-color: #33302E;
+}
+
+/*.zelf-portret {*/
+/*    position: absolute;*/
+/*    bottom: 50px*/
+/*}*/
