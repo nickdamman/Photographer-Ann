@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/styles/gallery.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <title>Gallery</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="/script.js" defer></script>
+</head>
+<body>
+<header class="header">
+    <div>
+        <nav>
+            <ul class="nav__links">
+                <div class="nav_link"><li><a href="../">HOME</a></li></div>
+                <li><div class="dropdown">
+                    <span><a class="active" href="./">GALLERY</a></span>
+                    <div class="dropdown-content">
+                        <div class="dropTest"><p><a href="macro">MACRO</a></p></div>
+                        <div class="dropTest"><p><a href="portrait">PORTRAIT</a></p></div>
+                        <div class="dropTest"><p><a href="landscape">LANDSCAPE</a></p></div>
+                        <div class="dropTest"><p><a href="pamuk">PAMUK</a></p></div>
+                    </div></div>
+                    <div class="chevron2"></div>
+                </li>
+                <div class="nav_link"><li class="logo"><a href="../"><img src="/images/logo.png" width="100" height="50" alt="Logo homepage"></a></li></div>
+                <div class="nav_link"><li><a href="/about">ABOUT</a></li></div>
+                <div class="nav_link"><li><a href="/contact">CONTACT</a></li></div>
+            </ul>
+        </nav>
+    </div>
+    <div class="flash">
+        <a href="../"><img src="/images/flash.png" width="75" height="75" alt="light flash of a camera"></a>
+    </div>
+</header>
+<main>
+    <div class="main-head">
+        <h2>GALLERIES</h2>
+        <div class="line"></div>
+        <p>For fine art print inquiries, please contact <a href="mailto: ann.bultynck@gmail.com">ann.bultynck@gmail.com</a></p>
+        <div class="line"></div>
+    </div>
+    <div class="photo-container">
+        <div class="photo1">
+            <a href="macro"><img src="/images/square1-macro.jpg" width="300" height="300" alt="macro photo of mushrooms on a tree branch covered by moss in a forest"></a>
+            <h2><a href="macro">MACRO</a></h2>
+        </div>
+        <div class="photo2">
+            <a href="portrait"><img src="/images/square2-portrait.jpg" width="300" height="300" alt="portrait photo remake of a famous painting where 5 heads of people look at random directions in the pitch black with a light source in the middle"></a>
+            <h2><a href="portrait">PORTRAIT</a></h2>
+        </div>
+        <div class="photo3">
+            <a href="landscape"><img src="/images/sqaure3-landscape.jpg" width="300" height="300" alt="landscape photo of a forest on a downhill covered by brown leaves"></a>
+            <h2><a href="landscape">LANDSCAPE</a></h2>
+        </div>
+        <div class="photo4">
+            <a href="pamuk"><img src="/images/sqaure4-pamuk.jpg" width="300" height="300" alt="photo of a cat with shadows of a blind on him, also a bouquet of flowers on the right"></a>
+            <h2><a href="pamuk">PAMUK</a></h2>
+        </div>
+    </div>
+</main>
+<footer id="bottom" class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h3>Ann Bultynck</h3>
+                <ul>
+                    <li><a href="../">Home</a></li>
+                    <li><a href="/about">About me</a></li>
+                    <li><a href="/contact">Contact me</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Learn more</h3>
+                <ul>
+                    <li><a href="/photoportfolio">Portfolio</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Social media</h3>
+                <ul class="social_links">
+                    <li><a href="https://www.facebook.com/ann.bultynck.5" target="_blank"><img src="/images/fbicon.png" width="35" height="35" alt="Facebook logo"></a></li>
+                    <li><a href="https://www.instagram.com/ann.bultynck/" target="_blank"><img src="/images/instaicon.png" width="35" height="35" alt="Instagram logo"></a></li>
+                    <li><a href="mailto: ann.bultynck@gmail.com"><img src="/images/emailicon.png" width="35" height="35" alt="Email icon"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Ann Bultynck Photography &copy; 2022</p>
+    </div>
+</footer>
+</body>
+</html>
