@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <title>Photographer website</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header class="header">
+    <div>
+        <nav>
+            <ul class="nav__links">
+                <div class="nav_link"><li><a class="active" href="./">HOME</a></li></div>
+                <li><div class="dropdown">
+                    <span><a href="gallery">GALLERY</a></span>
+                    <div class="dropdown-content">
+                        <div class="dropTest"><p><a href="gallery/macro">MACRO</a></p></div>
+                        <div class="dropTest"><p><a href="gallery/portrait">PORTRAIT</a></p></div>
+                        <div class="dropTest"><p><a href="gallery/landscape">LANDSCAPE</a></p></div>
+                        <div class="dropTest"><p><a href="gallery/pamuk">PAMUK</a></p></div>
+                    </div></div>
+                    <div class="chevron2"></div>
+                </li>
+                <div class="nav_link"><li class="logo"><a href="./"><img src="images/logo.png" width="100" height="50" alt="Logo homepage"></a></li></div>
+                <div class="nav_link"><li><a href="/about">ABOUT</a></li></div>
+                <div class="nav_link"><li><a href="/contact">CONTACT</a></li></div>
+            </ul>
+        </nav>
+    </div>
+    <div class="flash">
+        <a href="./"><img src="images/flash.png" width="75" height="75" alt="light flash of a camera"></a>
+    </div>
+</header>
+<main class="main">
+    <div class="p1">
+        <h1>Ann Bultynck</h1>
+        <h2>Photography</h2>
+       <a href="#bottom">
+            <div class="chevron"></div>
+        </a>
+    </div>
+    <div class="container">
+        <div class="foto-rij1">
+            <div class="foto 1">
+                <img src="images/macro1.jpg" width="720" height="480" alt="macro photo of mushrooms on a tree branch covered by moss in a forest">
+            </div>
+            <div class="foto 2">
+                <img src="images/macro-2.jpg" width="720" height="480" alt="macro photo of fungus on a rotten dried out tomato">
+            </div>
+            <div class="foto 3">
+                <img src="images/macro-5.jpg" width="720" height="480" alt="macro photo of a water droplet splashing into water">
+            </div>
+        </div>
+        <div class="foto-rij2">
+            <div class="foto 4">
+                <img src="images/portret-1.jpg" width="720" height="480" alt="portrait photo of a pregnant lady her stomach with baby shoes on top of it">
+            </div>
+            <div class="foto 5">
+                <img src="images/portret-2.jpg" width="720" height="480" alt="portrait photo of a mother and daughter looking and smiling at eachother">
+            </div>
+            <div class="foto 6">
+                <img src="images/portret-3.jpg" width="720" height="480" alt="portrait photo remake of a famous painting where 5 heads of people look at random directions in the pitch black with a light source in the middle">
+            </div>
+        </div>
+        <div class="foto-rij3">
+            <div class="foto 7">
+                <img src="images/landschap-1.jpg" width="720" height="480" alt="landscape photo of a forest on a downhill covered by brown leaves">
+            </div>
+            <div class="foto 8">
+                <img src="images/landschap-2.jpg" width="720" height="480" alt="landscape photo of a forest where a lone tree is highlighted, the leaves of this tree are yellow/orange color and the other trees in the forest have a green color">
+            </div>
+            <div class="foto 9">
+                <img src="images/landschap-3.jpg" width="720" height="480" alt="landscape photo of a lake with on both sides a treeline">
+            </div>
+        </div>
+        <div class="foto-rij4">
+            <div class="foto 10">
+                <img src="images/kat-1.jpg" width="720" height="480" alt="photo of a cat almost falling asleep">
+            </div>
+            <div class="foto 11">
+                <img src="images/kat-2.jpg" width="720" height="480" alt="photo of a cat with shadows of a blind on him, also a bouquet of flowers on the right">
+            </div>
+            <div class="foto 12">
+                <img src="images/kat-3.jpg" width="720" height="480" alt="photo of a cat laying down and looking directly at the camera">
+            </div>
+        </div>
+    </div>
+    <div class="button1"><button class="button" onclick="location.href='gallery'" type="button"><h4>Explore</h4></button></div>
+</main>
+<footer id="bottom" class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h3>Ann Bultynck</h3>
+                <ul>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="about">About me</a></li>
+                    <li><a href="contact">Contact me</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Learn more</h3>
+                <ul>
+                    <li><a href="photoportfolio">Portfolio</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Social media</h3>
+                <ul class="social_links">
+                    <li><a href="https://www.facebook.com/ann.bultynck.5" target="_blank"><img src="/images/fbicon.png" width="35" height="35" alt="Facebook logo"></a></li>
+                    <li><a href="https://www.instagram.com/ann.bultynck/" target="_blank"><img src="/images/instaicon.png" width="35" height="35" alt="Instagram logo"></a></li>
+                    <li><a href="mailto: music.seekage@gmail.com"><img src="/images/emailicon.png" width="35" height="35" alt="Email icon"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Ann Bultynck Photography &copy; 2022</p>
+    </div>
+</footer>
+</body>
+</html>
